@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const getMessages = require('../controllers/addMessages');
+const getMessages = require('../controllers/getMessages');
 const addMessages = require('../controllers/addMessages');
 
 router.post('/add', addMessages);
